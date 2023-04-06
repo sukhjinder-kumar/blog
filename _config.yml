@@ -96,7 +96,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: sukhjinder-kumar/Blog # <gh-username>/<repo>
+    repo: sukhjinder-kumar/blog # <gh-username>/<repo>
     repo_id: R_kgDOJTLVGQ 
     category: Comments
     category_id: DIC_kwDOJTLVGc4CVko0 
