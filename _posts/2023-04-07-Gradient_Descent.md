@@ -2,7 +2,7 @@
 title: Gradient Descent 
 date: 2023-04-07 04:59:30 +0530
 categories: [Optimization]
-tags: [machine_learning, artificial_intelligence, optimization]     # TAG names should always be lowercase
+tags: [machine_learning, artificial_intelligence, optimization, data_science]     # TAG names should always be lowercase
 math: true
 image:
   path: /assets/img/Gradient_Descent/GD1.png
