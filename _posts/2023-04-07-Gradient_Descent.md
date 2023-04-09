@@ -9,6 +9,8 @@ image:
   alt: Image of path GD takes over a multivariate function. [Source](https://easyai.tech/en/ai-definition/gradient-descent/)
 ---
 
+<div class="custom" markdown="1" style="font-family: CMS"> 
+
 ## Problem Statement 
 
 Consider a function $f: \mathbb{R}^n \rightarrow \mathbb{R}$, our aim is to find the minimum value of the function. Before we begin we could have generalised a bit more, what about functions whose domain is $\subseteq \mathbb{R}^n$. For the time being let us continue with former problem statement.
@@ -21,3 +23,5 @@ Let $f(x) = x^2$ be a one-dimensional function whose domain is real line. One ca
 ## References
 
 [^1]: [Numerical Optimization by Jorge Nocedal, Stephen J. Wright](https://link.springer.com/book/10.1007/978-0-387-40065-5)
+
+</div>
