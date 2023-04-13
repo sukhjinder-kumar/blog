@@ -9,7 +9,14 @@ image:
   alt: Image of path GD takes over a multivariate function. [Source](https://easyai.tech/en/ai-definition/gradient-descent/)
 ---
 
+
 <div class="custom" markdown="1" style="font-family: CMS"> 
+
+<style>
+    h1, h2 {
+        font-family: CMS;
+    }
+</style>
 
 ## Problem Statement 
 
