@@ -26,7 +26,8 @@ description: >- # used by seo meta and the atom feed
   A personal blogging website that mostly emphasise on academic topics from Mathematics, Computer Science, Machine Learning, AI and Physics. Occasionally some interesting puzzles too.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://sukhjinder-kumar.github.io" # Tried custom domain name here (without blog and with)
+#url: "https://sukhjinder-kumar.github.io" # Tried custom domain name here (without blog and with) (working, but shareable links, and sitemap showing this url)
+url: "https://sukhjinderkumar.me"
 
 github:
   username: sukhjinder-kumar # change to your github username
