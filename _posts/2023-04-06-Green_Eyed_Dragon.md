@@ -6,7 +6,6 @@ tags: [puzzle, logical]     # TAG names should always be lowercase
 ---
 
 This is a very innocent looking puzzle which makes absolutely no sense until it does!
-<!--more-->
 
 ## Problem
 

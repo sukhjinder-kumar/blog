@@ -17,8 +17,7 @@ image:
     }
 </style>
 
-Gradient descent is a very powerful algorithm to find minima of function. There are many variations of it depending of use case.
-<!--more-->
+Gradient descent is a very powerful algorithm to find minima of function. There are many variations of it depending of use case. In this blog post we will try to uncover some of the intricacies.
 
 ## Problem Statement 
 
