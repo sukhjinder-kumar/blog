@@ -27,7 +27,7 @@ The most amazing aspect of this problem is why should something happen, as a bys
 
 ---
 
-1. Say there is just one dragon, than trivially you just told him the color of his eye and boom by midnight he is a sparrow
+1. Say there is just one dragon, than trivially you just told him the color of his eye and boom by midnight he becomes a sparrow
 
 2. Now say there are 2 dragons. Let us call them d1 and d2. From POV of d1, d2 is green (he can see), and night passes nothing happen. But there is a problem, it is trivial that d1 didn’t became sparrow but why didn’t d2 became sparrow. Cause you were green eyed too, else he would have known he is sparrow. This implies that after one day, when the other doesn’t become sparrow you realize that you are also green. 
 
