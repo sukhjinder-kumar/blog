@@ -2,8 +2,7 @@ name: "Build and Deploy"
 on:
   push:
     branches:
-      - main
-      - master
+      - master # - main, issue #502 on chirpy repo
     paths-ignore:
       - .gitignore
       - README.md
