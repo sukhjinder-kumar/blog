@@ -3,6 +3,8 @@ title: Gradient Descent
 date: 2023-04-07 04:59:30 +0530
 categories: [Optimization]
 tags: [machine_learning, artificial_intelligence, optimization, data_science]     # TAG names should always be lowercase
+summary: Gradient Descent is a very powerful optimization algorithm that is used almost everywhere in machine learning, from solving logistic regression in 1950s to GPT3! This post is math intensive, we try to give a comprehensive analysis.
+excerpt_card: Gradient Descent is a very powerful optimization algorithm that is used almost everywhere in machine learning, from solving logistic regression in 1950s to GPT3!
 math: true
 image:
   path: /assets/img/Gradient_Descent/GD1.png
@@ -16,8 +18,6 @@ image:
         font-family: CMS;
     }
 </style>
-
-Gradient descent is a very powerful algorithm to find minima of function. There are many variations of it depending of use case. In this blog post we will try to uncover some of the intricacies.
 
 ## Problem Statement 
 
