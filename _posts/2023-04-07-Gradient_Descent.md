@@ -9,7 +9,6 @@ image:
   alt: Image of path GD takes over a multivariate function. [Source](https://easyai.tech/en/ai-definition/gradient-descent/)
 ---
 
-
 <div class="custom" markdown="1" style="font-family: CMS"> 
 
 <style>
@@ -17,6 +16,9 @@ image:
         font-family: CMS;
     }
 </style>
+
+Gradient descent is a very powerful algorithm to find minima of function. There are many variations of it depending of use case.
+<!--more-->
 
 ## Problem Statement 
 

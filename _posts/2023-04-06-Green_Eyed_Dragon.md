@@ -5,12 +5,14 @@ categories: [Puzzle]
 tags: [puzzle, logical]     # TAG names should always be lowercase
 ---
 
+This is a very innocent looking puzzle which makes absolutely no sense until it does!
+<!--more-->
+
 ## Problem
 
 ---
 
-You visit a remote desert island inhabited by one hundred very friendly dragons,
-all of whom have green eyes. They haven’t seen a human for many centuries and are very excited about your visit. They show you around their island and tell you all about their dragon way of life (dragons can talk, of course).
+You visit a remote desert island inhabited by one hundred very friendly dragons, all of whom have green eyes. They haven’t seen a human for many centuries and are very excited about your visit. They show you around their island and tell you all about their dragon way of life (dragons can talk, of course).
 
 They seem to be quite normal, as far as dragons go, but then you find out something rather odd. They have a rule on the island that states that if a dragon ever finds out that he/she has green eyes, then at precisely midnight at the end of the day of this discovery, he/she must relinquish all dragon powers and transform into a long-tailed sparrow. However, there are no mirrors on the island, and the dragons never talk about eye color, so they have been living in blissful ignorance throughout the ages. 
 
