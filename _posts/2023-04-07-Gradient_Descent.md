@@ -21,7 +21,7 @@ image:
 
 ## Problem Statement 
 
-Consider a function $f: \mathbb{R}^n \rightarrow \mathbb{R}$, our aim is to find the minimum value of the function. Before we begin we could have generalised a bit more, what about functions whose domain is $\subseteq \mathbb{R}^n$. For the time being let us continue with former problem statement.
+Consider a function $f: \mathbb{R}^n \rightarrow \mathbb{R}$, our aim is to find the minimum value of the function. Now before we begin we could have generalised a bit more, what about functions whose domain is $\subseteq \mathbb{R}^n$. But for the time being let us continue with former problem statement.
 
 Let $f(x) = x^2$ be a one-dimensional function whose domain is real line. One can quickly infer its minimum value is 0 and is attained at $x = 0$. One way to see this follows from a keen inspection of derivative, namely by setting it to 0.
 
