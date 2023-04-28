@@ -49,7 +49,7 @@ layout: page
 
           <div class="card-text post-content">
             <p>
-              {% if post.summary %}
+              {% if post.excerpt_card %}
                 {% include no-linenos.html content=post.excerpt_card %}
                 {{ content | markdownify | strip_html | truncate: 200 | escape }}
               {% else %}
