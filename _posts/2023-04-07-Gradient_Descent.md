@@ -7,7 +7,7 @@ summary: Gradient Descent is a very powerful optimization algorithm that is used
 excerpt_card: Gradient Descent is a very powerful optimization algorithm that is used almost everywhere in machine learning, from solving logistic regression in 1950s to GPT3!
 math: true
 image:
-  path: /assets/img/Gradient_Descent/GD1.jpeg
+  path: /assets/img/Gradient_Descent/GD1.png
   alt: Image of path GD takes over a multivariate function. [Source](https://easyai.tech/en/ai-definition/gradient-descent/)
 ---
 
