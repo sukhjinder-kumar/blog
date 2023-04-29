@@ -78,10 +78,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://sukhjinderkumar-cdn.netlify.app/"
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/blog/commons/sukhjinder-cropped.jpg"
+avatar: /assets/img/sukhjinder-cropped.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
