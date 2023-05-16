@@ -14,19 +14,27 @@ image:
 <div class="custom" markdown="1" style="font-family: CMS"> 
 
 <style>
-    h1, h2 {
+    h2, h3, h4 {
         font-family: CMS;
     }
 </style>
 
+You can play with the algorithms [here](https://sukhjinder-kumar-descent-algorithms.streamlit.app/) and checkout the implementation details [here](https://github.com/sukhjinder-kumar/DescentAlgorithms)
+
 ## Problem Statement 
 
-Consider a function $f: \mathbb{R}^n \rightarrow \mathbb{R}$, our aim is to find the minimum value of the function. Now before we begin we could have generalised a bit more, what about functions whose domain is $\subseteq \mathbb{R}^n$. But for the time being let us continue with former problem statement.
+Consider a function $f: \mathbb{R}^n \rightarrow \mathbb{R}$, our aim is to find the minimum value of the function. Now before we begin we could have generalised a _little_ bit more, what about functions whose domain is $\subseteq \mathbb{R}^n$. But for the time being let us continue with former problem statement.
 
 Let $f(x) = x^2$ be a one-dimensional function whose domain is real line. One can quickly infer its minimum value is 0 and is attained at $x = 0$. One way to see this follows from a keen inspection of derivative, namely by setting it to 0.
 
-**Theorem 1** (First-Order Necessary Conditions) [^1] <br />
-*If $x^∗$ is a local minimizer and $f$ is continuously differentiable in an open neighborhood of $x^∗$ , then $\nabla f(x^∗) = 0$.*
+__Theorem 1__ (First-Order Necessary Conditions) [^1] <br />
+_If $x^∗$ is a local minimizer and $f$ is continuously differentiable in an open neighborhood of $x^∗$ , then $\nabla f(x^∗) = 0$._
+
+_Proof._ We prove by contradiction. Assume wrongly that gradient is non-zero at $x^\*$. If we now move in direction opposite to gradient we are bound to attain a lower value of function! We are using the fact that gradient points in direction of greatest ascent and consequently opposite direction points to steepest descent. Hence by contradiction, $\nabla f(x^\*) = 0$.
+
+
+
+## Further Resources
 
 ## References
 
