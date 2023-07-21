@@ -13,12 +13,6 @@ image:
 
 <div class="custom" markdown="1" style="font-family: CMS"> 
 
-<style>
-    h2, h3, h4 {
-        font-family: CMS;
-    }
-</style>
-
 You can play with the algorithms [here](https://sukhjinder-kumar-descent-algorithms.streamlit.app/) and checkout the implementation details [here](https://github.com/sukhjinder-kumar/DescentAlgorithms)
 
 ## Problem Statement 
