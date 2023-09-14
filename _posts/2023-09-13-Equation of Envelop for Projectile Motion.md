@@ -12,14 +12,14 @@ math: true
 
 ## 1. Basic Theory
 
-You might know the angle for which range is maximum on level ground, namely $45\degree$.
+You might know the angle for which range is maximum on level ground, namely $45^{\circ}$.
 Notice that this is independent of the velocity! For those who haven't seen this here is
 the little proof -
 
 $$
 \begin{align*}
-	Range (R) & = v_x \times time \\
-	        R & = v\cos\theta \times (2v\sin\theta / g) \\
+    R & = v_x \times time \\
+	R & = v\cos\theta \times \left( \frac{2v\sin\theta}{g} \right) \\
 \end{align*}
 $$
 
@@ -27,16 +27,30 @@ Here we can calculate time using $S = ut + 1/2at^2$, where acceleration is $g$, 
 as starting and final position is same, and $u$ is $v\sin\theta$.
 
 $$
-	R = \frac{v^2 \sin 2\theta}{g}
+    R = \frac{v^2 \sin 2\theta}{g}
 $$
 
-Clearly $\sin$ is maximum at $90\degree$, giving $\theta = 45 \degree$
+Clearly $\sin$ is maximum at $90^{\circ}$, giving $\theta = 45^{\circ}$
 
 ## 2. Main Course
 
-Now we alter the problem slightly. Instead of a level surface we launch the ball from a cliff. What is angle that corresponds to maximum range for a projectile when you throw the object (with velocity $v$) from a cliff ($h$ height from surface)?
+Now we alter the problem slightly. Instead of a level surface we launch the ball from a cliff.
+What is angle that corresponds to maximum range for a projectile when you throw the object 
+(with velocity $v$) from a cliff ($h$ height from surface)?
 
-Before going any further let me comment on one certainity, it will be $\to 0\degree$! Why you may ask. The idea is horizontal throw ($\theta = 0\degree$) has the most horizontal velocity. The only reason why it doesn't correspond to max range is due to time of flight. However when you introduce a cliff, every throw gets some time in the downfall. Let us for sake of all non-zero angle throws, say downfall time from cliff to ground is same. This is wrong as all other throws (except $0\degree$) have some non-zero downward velocity, but let us be generous to them. Apart from this is constant time, all other also enjoys time taken during the parabolic arc above the cliff. Let us say all takes time corresponding to $90\degree$, i.e maximum time of flight. The idea is even in best case total time, the ratio of time of parabolic arc above cliff and time in downhill tends to 0! The reasoning being former is constant (function of velocity) whereas later increases with height of cliff. Now when we compute range, it will be $v_x \times$ TotalTime. Total time is something very large + something constant (and hence small). Multiplied by $v_x$ yeilds
+Before going any further let me comment on one certainity, it will be $\to 0^{\circ}$! Why you
+may ask. The idea is horizontal throw ($\theta = 0\degree^{circ}$) has the most horizontal velocity.
+The only reason why it doesn't correspond to max range is due to time of flight. However when you
+introduce a cliff, every throw gets some time in the downfall. Let us for sake of all non-zero angle 
+throws, say downfall time from cliff to ground is same. This is wrong as all other throws (except 
+$0\degree$) have some non-zero downward velocity, but let us be generous to them. Apart from this 
+is constant time, all other also enjoys time taken during the parabolic arc above the cliff. Let 
+us say all takes time corresponding to $90\degree$, i.e maximum time of flight. The idea is even 
+in best case total time, the ratio of time of parabolic arc above cliff and time in downhill tends 
+to 0! The reasoning being former is constant (function of velocity) whereas later increases with 
+height of cliff. Now when we compute range, it will be $v_x \times$ TotalTime. Total time is 
+something very large + something constant (and hence small). Multiplied by $v_x$ yeilds
+
 $$
 \begin{align*}
 	R(h) & = v_x \times (t_{parabolic \ arc} \ + \ t_{downhill}) &\\
@@ -45,11 +59,15 @@ $$
 		& = constant^\prime \ + \ v\cos\theta \times t_{downhill}
 \end{align*}
 $$
+
 Compared to horizontal throw 
+
 $$
 	R(h) = v \times t_{downhill}
 $$
+
 Clearly for sufficiently large h, or concretely large $t_{downhill}$, for every $\theta$ we will have Range for horizontal throw > Range for inclined throw. 
+
 $$
 \begin{align*}
 	v \times t_{downhill} > constant^\prime \ + \ v\cos\theta \times t_{downhill} \\
@@ -57,8 +75,9 @@ $$
 	constant^{\prime\prime} \times t_{downhill} > constant^\prime
 \end{align*}
 $$
+
 In above everything is constant, only $t_{downhill}$ depends on $h$. For large $t_{downhill}$ above inequality is trivially satisfied. Above calculation might seem elaborate but in essence what we showed is every throw gains some constant horizontal distance in its above the cliff parabolic arc. However as $v > v\cos\theta$,  after some $h$ that little increment faids away, and the relative difference in velocity catches up to that initial gain. It is like 2 car racing one with velocity $v$ and other with $v\cos\theta$, later having a head start of say some distance $x$. It is just matter of time when faster catches it up![^1] 
-Using same analogy one can say after sufficient height, every throw will surpass throw that is launched at higher angle to it! I.e $30\degree$ after some point will surpass $60\degree$. I don't know how to put the intuition more concretely but there is a strong urge to claim that $\theta$, corresponding to maximum range, will decrease monotonically till $0\degree$.
+Using same analogy one can say after sufficient height, every throw will surpass throw that is launched at higher angle to it! I.e $30\degree^{circ}$ after some point will surpass $60\degree$. I don't know how to put the intuition more concretely but there is a strong urge to claim that $\theta$, corresponding to maximum range, will decrease monotonically till $0\degree$.
 
 Now let us come back the original problem of actually finding the angle.
 
@@ -82,5 +101,8 @@ Above needs some modelling. We might need to consider $dm$ mass is being pushed 
 9. [The Envelope of Projectile Trajectories, YouTube video by Elliot Nicholson](https://www.youtube.com/watch?v=P32zK3I8dog)
 10. [Stack overflow for maximum range and angle when lauched from elevated surface](https://math.stackexchange.com/questions/127300/maximum-range-of-a-projectile-launched-from-an-elevation)
 
+---
+
 [^1]: Just a subtle point the cars are accelerating. But as accelerating is same, there relative velocities remain the same! So no difference in time of convergence.
 
+</div>
