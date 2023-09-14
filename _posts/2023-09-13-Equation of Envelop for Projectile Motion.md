@@ -66,7 +66,8 @@ $$
 	R(h) = v \times t_{downhill}
 $$
 
-Clearly for sufficiently large h, or concretely large $t_{downhill}$, for every $\theta$ we will have Range for horizontal throw > Range for inclined throw. 
+Clearly for sufficiently large h, or concretely large $t_{downhill}$, for every $\theta$ 
+we will have Range for horizontal throw > Range for inclined throw. 
 
 $$
 \begin{align*}
