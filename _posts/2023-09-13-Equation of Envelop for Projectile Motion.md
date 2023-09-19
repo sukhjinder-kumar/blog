@@ -65,22 +65,24 @@ Now let us come back the original problem of actually finding the angle.
 
 We want to find the angle $\theta$ that corresponds to maximum $x_t$, as shown in the below figure. Here goes nothing -
 
-![Projectile Motion from a cliff](file:///home/ishan/Sukhjinder_Personal/My%20Notes/Marktext/Images/ProjectileFromCliff.png?msec=1695117762911 "Projectile Motion from a cliff. [Link](https://blog.cupcakephysics.com/classical%20mechanics/2015/04/25/maximum-range-of-a-projectile.html) ")
+![Projectile Motion from a cliff](/assets/img/Projectile_Motion/ProjectileFromCliff.png)
+_[Image Source: cupcakephysics](https://blog.cupcakephysics.com/classical%20mechanics/2015/04/25/maximum-range-of-a-projectile.html)_
 
-<calculations>
+calculations
 
-## 3. Equation of Envelop
+## 4. Equation of Envelop
 
+_[](https://blog.cupcakephysics.com/classical%20mechanics/2015/04/25/maximum-range-of-a-projectile.html)_
 As we just saw finding angle is not so straight forward. The calculations becomes very messy and a need of different approach arises.
 
-## 4. Further Problems
+## 5. Further Problems
 
 What is the equation of envelope for both level surface and from a cliff. Imagine all possible throws, what is the region where you the ball can't reach.
 
 Say you have a sprinklers. tossing water uniformly at all angles in all direction (symmetry in 2D surface). Now what is the density of water w.r.t to radial distance from center. I.e there will be angles for which range doesn't change much, there water will log more compared to angles for which slight change results in greater range change. Say water log is inversely proportional to $dR/d\theta$, you can understand this by assuming that sprinklers releases water in little bursts of mass $dm$ (or some volume $dv$). The entire mass is collected at $R(\theta,h)$. After a very long time, we would like to see radial strips which have higher water log. Water log in $dR$ would be $dm \times$ 
 Above needs some modelling. We might need to consider $dm$ mass is being pushed in $d\theta$ angle.
 
-## 5. Resources and Further Reading
+## 6. Resources and Further Reading
 
 1. [IB Maths Resources](https://ibmathsresources.com/2020/04/06/envelope-of-projectile-motion/#:~:text=Finding%20the%20equation%20of%20an%20envelope%20for%20projectile%20motion&text=F(x%2Cy%2Ctheta,F%20with%20respect%20to%20theta.))
 2. [Stack overflow: Envelope of Projectile Trajectories](https://math.stackexchange.com/questions/1495086/envelope-of-projectile-trajectories)
@@ -92,6 +94,8 @@ Above needs some modelling. We might need to consider $dm$ mass is being pushed 
 8. [No Calculus Needed?! How to Maximize Range Using Simple Geometry, YouTube Video by MathyJaphy](https://www.youtube.com/watch?v=xwhbT9Do1RQ)
 9. [The Envelope of Projectile Trajectories, YouTube video by Elliot Nicholson](https://www.youtube.com/watch?v=P32zK3I8dog)
 10. [Stack overflow for maximum range and angle when launched from elevated surface](https://math.stackexchange.com/questions/127300/maximum-range-of-a-projectile-launched-from-an-elevation)
+
+## 7. Footnotes
 
 [^1]: Technically car 2 had head start in time not in distance. But okayy!
 
