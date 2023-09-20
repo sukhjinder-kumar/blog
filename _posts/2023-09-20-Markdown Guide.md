@@ -12,11 +12,11 @@ image:
 
 # Markdown Guide
 
-Markdown is a "formatting" language, by which I mean it provides you with syntax that can be used to format your text in some predefined way like bold or italic your text. Well than you might ask .. so is HTML and latex, yes but for "simple" cases they are overkill, and often slows you down, not to forget hard to read! The reason is simple, to provide more formatting choices more syntax is required. And often syntax is "standardized" meaning you won't have simple syntax for some common formatting options and "hard" syntax for uncommon, usually syntax follow some common practice.
+Markdown is a "formatting" language, by which I mean it provides you with syntax that can be used to format your text in some predefined way like heading, paragraphs, etc. Well than you might ask .. so is HTML and latex, yes but for "simple" cases they are overkill, often slows you down, and not to mention hard to read! The reason is simple, to provide more formatting choices more syntax is required. And often syntax is "standardized" meaning you won't have simple syntax for some common formatting options and "hard" syntax for uncommon, usually syntax follow some uniform practice.
 
-Markdown is very simple to learn. Apart from its popular usage, say in documentation files and really I mean every other file which has text and is not going to be "printed" i.e precise formatting is required, its just very convenient. Instead of using bare `.txt` file with no formatting, markdown is step up with very little learning curve. Which makes it a go-to for taking notes and making documentations.
+Markdown is very simple to learn. Apart from its popular usage, say in documentation and in literally every other file which has text and is not going to be "printed" i.e precise formatting is required, its just very convenient. Instead of using bare `.txt` file with no formatting, markdown is step up with very little learning curve. Which makes it a go-to for taking notes and making documentations.
 
-In this post we will cover basic markdown syntax like creating headings, paragraph, bold and italic text, code blocks, block quotes, adding images, lists, links, divider (horizontal line), table, to-do list, and some other features like auto generating a table of content, etc. Though note that markdown viewers doesn't always abide by the "law". Every interpreter (the software which renders you `.md` file) has there own syntax which can sometimes be different from some other software. That said most of them do abide on some standard implementations. However, given markdown is so bare minimal, to provide a little more functionality each software might add a few tricks of there own. For instance table of content is not a universal markdown feature!
+In this post we will cover basic markdown syntax like creating headings, paragraph, bold and italic text, code blocks, block quotes, adding images, lists, links, divider (horizontal line), table, to-do list, and some other features like auto generating a table of content, etc. Though note that markdown viewers doesn't always abide by the "law". Every interpreter (the software which renders your `.md` file) has there own syntax which can sometimes be different from some other software. That said most of them do abide on some standard implementations. However, given markdown is so bare minimal, to provide a little more functionality each software might add a few tricks of there own. For instance table of content is not a universal markdown feature!
 
 Philosophically the point of markdown is to create a readable text file with some standard protocol to symbolize say header or list, just like taking notes on piece of paper. Just that in computer you can't just increase the text of your word (in text file) so we agree if, say `# Calculus` it is to be read as heading is Calculus, i.e imagine in your mind while reading it has big font's .. the whole point is to provide some structure to our text file by keeping some protocols in place. It is only when we actually want to "view" the file as they were imagined we get into a bit of trouble as mentioned before.
 
@@ -24,7 +24,7 @@ Philosophically the point of markdown is to create a readable text file with som
 
 First things first what is `.md` file, how to "write" it, how to "open" it. If you are new to programming world you might have these questions. Let me answer one by one. Markdown file is just a file with `.md` as the file extension, just like you have `.pdf` or `.mp4`. In order to edit the file you will need an editor, a software that lets you edit the contents of the file. There are many editors out there (actually too many). I personally use [Neovim](https://neovim.io/), however this might not be the best for you. To keep things simple you might wanna start with some online editors like [Stackedit](https://stackedit.io/) or [Dillinger](https://dillinger.io/). For completion sake, here are a few markdown editors that I have used and like -
 
-1. [Simple Notes](https://simplenote.com/): A really nice feature it has is, it auto syncs your files between different devices you are logged into. Now that I am writing this it doesn't seem a big deal, but it is just so fluid! Anyway if it is not enough, its super minimal and the typing, it just feels so good (I really don't know, may be that particular font size, family and the latency between display of character and me pressing it ..). I have used Linux and android versions, and it works like charm.
+1. [Simple Notes](https://simplenote.com/): It has a very nice feature, it auto syncs your files between different devices you are logged into. Now that I am writing this it doesn't seem a big deal, but it is just so fluid! Anyway if it is not enough, its super minimal and the typing, it just feels so good (I really don't know, may be that particular font size, family and the latency between display of character and me pressing it ..). I have used Linux and android versions, and it works like charm.
   
 2. [Joplin](https://joplinapp.org/): A bit of heavy duty, room for a lot of customization.
   
@@ -33,7 +33,7 @@ First things first what is `.md` file, how to "write" it, how to "open" it. If y
 4. There are of course, dozens of other good apps like [Notion](https://www.notion.so/). Not sure but I think apple notes also allows for markdown. Basically at this point, we are straying away from basis editor to full fledged note taking systems with a lot of different features.
   
 
-Now apps that can render your `.md` file. If you are using any of the above software (expect Neovim), than they have inbuilt viewer which shows the output side by side. But say you just have `.md` file natively on your disk and want to see formatted version. Well there are a few choices like [Okular](https://okular.kde.org/), I really don't any other. I use this, not the best look by any measure but gets the job done. You can always copy the text and paste into one of the above editors and have a nicer viewing experience.
+Now apps that can render your `.md` file. If you are using any of the above software (expect Neovim), than they have inbuilt viewer which shows the output side by side. But say you just have `.md` file natively on your disk and want to see formatted version. Well there is [Okular](https://okular.kde.org/), I don't know of any other good alternative though. I use this, doesn't have the best look by any measure but gets the job done. You can always copy the text and paste into one of the above editors and have a nicer viewing experience.
 
 ## 2. Markdown-101
 
@@ -59,7 +59,7 @@ all lines will appear together without gap.
 This is second paragraph.
 ```
 
-This is sometimes where people get confused. Using a line break (enter) doesn't mean you changed paragraph. It makes no difference. The next line will appear right after the full stop. To enter into a new paragraph, you need to leave line between or 2 enters.
+This is sometimes where people get confused. Using a line break (enter) doesn't mean you changed paragraph. It makes no difference. The next line will appear right after the full stop. To enter into a new paragraph, you need to leave a line between or use 2 enters.
 
 In some editors using 1 enter moves to a new paragraph like in Notion, Marktext, Joplin. But if you are reading documentations, than above convention is followed.
 
@@ -69,7 +69,7 @@ Use can use `**<word>**` or `__<word>__`to make it bold. And use `*<word>*` or `
 
 ### 2.4 Lists
 
-For an un-ordered list you can use `-` and for ordered (i.e numbered) you can use `1. <line>` and `2. <line>` and so on. You can also use `1)` for ordered list. For to-do list you can use `[]`. To mark it as done, fill it with `x` as in `[x]`.
+For an un-ordered list you can use `-` and for ordered (i.e numbered) you can use `1. <line>` and `2. <line>` and so on. You can also use `1)` for ordered list. For to-do list you can use `[]`. To mark it as done, fill it with `x` as in `[x]`. Mixing is also allowed for instance you can unordered list with a to-do as shown below.
 
 ```markdown
 - This is first point
@@ -80,19 +80,21 @@ For an un-ordered list you can use `-` and for ordered (i.e numbered) you can us
 
 [] Buy apples
 [x] Pick up groceries
+
+- [] This is to-do in unordered list.
 ```
 
 ### 2.5 Code blocks
 
 ````markdown
-```<Language name like python>
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 ...
 ```
 ````
 
-Use triple-'\`' followed by code in next line and ended with triple-'\`' again in new line, as shown above.
+Use triple-'\`' followed by code in next line and ended with triple-'\`' again in new line, as shown above. Instead of python you can use any other language as well, your smart editor might use this information for syntax highlighting. 
 
 ### 2.6 Block quotes
 
@@ -134,7 +136,7 @@ Here alt means what to display if there is error while displaying image. Say you
 
 ### 2.9 Horizontal line
 
-Not sure why I put it last, to draw a horizontal line whose purpose can be thought as divider use `---` i.e 3 dashes (or more).
+Not sure why I put it so back, to draw a horizontal line whose purpose can be thought as divider use `---` i.e 3 dashes (or more).
 
 ### 2.10 HTML
 
@@ -155,7 +157,7 @@ Put your content of table in place `<something>`. You can increase the number of
 
 ### 2.12 Escaping characters
 
-with any syntax there are some corner cases where the interpretation is ambigous. Say you want to display markdown, how will you go about it?
+With any syntax there are some corner cases where the interpretation is ambigous. Say you want to display the following markdown where `-` is just outputted as minux and not as unordered list, how will you go about it?
 
 ```markdown
 - <- this is minus sign
