@@ -69,7 +69,7 @@ Use can use `**<word>**` or `__<word>__`to make it bold. And use `*<word>*` or `
 
 ### 2.4 Lists
 
-For an un-ordered list you can use `-` and for ordered (i.e numbered) you can use `1. <line>` and `2. <line>` and so on. You can also use `1)` for ordered list. For to-do list you can use `[]`. To mark it as done, fill it with `x` as in `[x]`. Mixing is also allowed for instance you can unordered list with a to-do as shown below.
+For an un-ordered list you can use `-` and for ordered (i.e numbered) you can use `1. <line>` and `2. <line>` and so on. You can also use `1)` for ordered list. For to-do list you can use `[]`. To mark it as done, fill it with `x` as in `[x]`. Mixing is also allowed, for instance you can use unordered list with a to-do as shown below.
 
 ```markdown
 - This is first point
