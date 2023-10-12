@@ -6,7 +6,7 @@ tags: [programming, note taking, markdown]     # TAG names should always be lowe
 summary: This is post we walk through some basis markdown syntax 
 excerpt_card: This is post we walk through some basis markdown syntax 
 image:
-  path: /assets/img/Markdown_Guide/MarkdownImage.png
+  path: /assets/img/Markdown_Guide/markdown.jpg
   alt: Markdown symbol 
 ---
 
