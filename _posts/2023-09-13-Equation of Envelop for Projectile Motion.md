@@ -105,7 +105,7 @@ Maximizing R is same as maximizing R/H -
 $$
 \begin{align*}
 \frac{R}{H} &= sin2\theta \left(1 + \sqrt{1 + \frac{h}{Hsin^2\theta}}\right) \\
-&= sin2\theta \left(1 + \sqrt{1 + \alpha \cosec^2\theta}\right)
+&= sin2\theta \left(1 + \sqrt{1 + \alpha \csc^2\theta}\right)
 \end{align*}
 $$
 
