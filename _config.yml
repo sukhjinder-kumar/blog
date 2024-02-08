@@ -52,6 +52,9 @@ google_site_verification: auEghHMfq7orhi9qDjmC5zhkeQEoUB5QZhYyXLOHWQI # fill in 
 google_analytics:
   id:  G-6XFENHJREM # fill in your Google Analytics ID
 
+goatcounter:
+  id: sukhjinder-blog # fill in your Goatcounter ID
+
 # Prefer color scheme setting.
 
 # Note: Keep empty will follow the system prefer color by default,
