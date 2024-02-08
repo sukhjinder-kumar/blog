@@ -1,18 +1,14 @@
-# The Site Configuration
+# Th Site Configuration
 
 # Import the theme
 theme: jekyll-theme-chirpy
-
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
-baseurl: "/blog" # that particular project doesn't have a custom domain site
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker 
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
@@ -38,15 +34,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Sukhjinder Kumar 
+  name: Sukhjinder Kumar
   email: sukhjinderkumar007101@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://www.linkedin.com/in/sukhjinder-kumar
     - https://twitter.com/sukhjinder_007 # change to your twitter homepage
     - https://github.com/sukhjinder-kumar # change to your github homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/Sukhjinder.Kumar101
-    - https://www.linkedin.com/in/sukhjinder-kumar
 
 google_site_verification: auEghHMfq7orhi9qDjmC5zhkeQEoUB5QZhYyXLOHWQI # fill in to your verification string
 
@@ -54,8 +50,7 @@ google_site_verification: auEghHMfq7orhi9qDjmC5zhkeQEoUB5QZhYyXLOHWQI # fill in 
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:  # fill in your Google Analytics ID
-  # Google Analytics pageviews report setting
+  id:  G-6XFENHJREM # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 
@@ -75,19 +70,23 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/avatar.jpg
+
+# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
+# It can be overridden by a customized `page.image` in front matter.
+social_preview_image: /assets/img/avatar.jpg # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
 
 comments:
-  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: disqus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: www-sukhjinderkumar-me-blog # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo: # <gh-username>/<repo>
@@ -95,13 +94,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: sukhjinder-kumar/blog # <gh-username>/<repo>
-    repo_id: R_kgDOJTLVGQ 
+    repo_id: R_kgDOJTLVGQ
     category: Comments
-    category_id: DIC_kwDOJTLVGc4CVko0 
-    #repo: techno-tim/techno-tim.github.io
-    #repo_id: MDEwOlJlcG9zaXRvcnkyNTQ3ODQ3Nzk
-    #category: Comments 
-    #category_id: DIC_kwDODy-1C84CSN7z
+    category_id: DIC_kwDOJTLVGc4CVko0
     mapping: pathname # optional, default to 'pathname'
     input_position: bottom # optional, default to 'bottom'
     lang: en # optional, default to the value of `site.lang`
@@ -119,6 +114,9 @@ pwa:
   enabled: true # the option for PWA feature
 
 paginate: 10
+
+# The base URL of your site
+baseurl: "/blog"
 
 # ------------ The following options are not recommended to be modified ------------------
 
