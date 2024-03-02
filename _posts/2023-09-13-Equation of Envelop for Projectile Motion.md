@@ -8,7 +8,7 @@ excerpt_card: We are going to find the equation of the envelope for a projectile
 math: true
 ---
 
-<div class="custom" markdown="1" style="font-family: Verdana"> 
+<div class="custom" markdown="1" style="font-family: CMS"> 
 
 ## 1. Basic Theory
 
