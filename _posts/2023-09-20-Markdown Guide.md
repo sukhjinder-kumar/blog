@@ -4,7 +4,7 @@ date: 2023-09-20 19:33:20 +0530
 categories: [Programming, Miscellaneous]
 tags: [programming, note taking, markdown]     # TAG names should always be lowercase
 summary: This is post we walk through some basis markdown syntax 
-excerpt_card: This is post we walk through some basis markdown syntax 
+description: This is post we walk through some basis markdown syntax 
 image:
   path: /assets/img/Markdown_Guide/markdown.jpg
   alt: Markdown symbol 

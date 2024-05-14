@@ -4,7 +4,7 @@ date: 2023-04-06 16:25:10 +0530
 categories: [Puzzle]
 tags: [puzzle, logical]     # TAG names should always be lowercase
 summary: This is a very innocent looking puzzle which makes absolutely no sense until it does!
-excerpt_card: This is a very innocent looking puzzle which makes absolutely no sense until it does!
+description: This is a very innocent looking puzzle which makes absolutely no sense until it does!
 ---
 
 ## Problem

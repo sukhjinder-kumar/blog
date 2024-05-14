@@ -4,7 +4,7 @@ date: 2023-09-13 15:11:20 +0530
 categories: [Physics]
 tags: [physics, kinematics]     # TAG names should always be lowercase
 summary: In this blog post we are going to find the equation of the envelope for a projectile motion. We will find maximum range and corresponding angle when object is lauched from an elevated surface.
-excerpt_card: We are going to find the equation of the envelope for a projectile motion, maximum range and corresponding angle when object is lauched from an elevated surface.
+description: We are going to find the equation of the envelope for a projectile motion, maximum range and corresponding angle when object is lauched from an elevated surface.
 math: true
 ---
 
