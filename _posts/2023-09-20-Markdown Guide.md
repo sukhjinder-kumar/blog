@@ -10,8 +10,6 @@ image:
   alt: Markdown symbol 
 ---
 
-# Markdown Guide
-
 Markdown is a "formatting" language, by which I mean it provides you with syntax that can be used to format your text in some predefined way like heading, paragraphs, etc. Well than you might ask .. so is HTML and latex, yes but for "simple" cases they are overkill, often slows you down, and not to mention hard to read! The reason is simple, to provide more formatting choices more syntax is required. And often syntax is "standardized" meaning you won't have simple syntax for some common formatting options and "hard" syntax for uncommon, usually syntax follow some uniform practice.
 
 Markdown is very simple to learn. Apart from its popular usage, say in documentation and in literally every other file which has text and is not going to be "printed" i.e precise formatting is required, its just very convenient. Instead of using bare `.txt` file with no formatting, markdown is step up with very little learning curve. Which makes it a go-to for taking notes and making documentations.

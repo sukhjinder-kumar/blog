@@ -1,8 +1,8 @@
 ---
 title: Review of the 1984 and the Animal Farm by George Orwell
 date: 2024-05-28 20:58:49 +0530
-categories: [Book Review]
-tags: [1984, animal farm, george orwell, book, review]     # TAG names should always be lowercase
+categories: [BookReview]
+tags: [animal farm, george orwell, book, review]     # TAG names should always be lowercase
 description: This is the review of the 1984 and the Animal farm by George Orwell
 ---
 
