@@ -40,7 +40,7 @@ We follow the life of a Winston Smith, an outer party worker. The party being di
 
 The story is not per sai about Winston Smith, but rather of an ordinary indiviual and the life therein. The harsh living conditions, always within walking distance of death, lack lustre life, hegemonization of society (especially the youth, with the spy culture and Junior anti-sex league) and the feeling of overwhelming power over ones head. The story was meant to depict the world we are heading (which has merit to-date), and there are many takeaways that should be taken. 
 
-The writing style is unique, one feels anxiety and uneasiness the character. And before I move on , I have to mention the famous quote, “Big Brother is watching you”. Its iconic …
+The writing style is unique, one feels anxiety and uneasiness the character. And before I move on , I have to mention the famous quote, “Big Brother is watching you”. Its just iconic …
 
 ## Farm Animal
 
