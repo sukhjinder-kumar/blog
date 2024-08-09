@@ -1,0 +1,57 @@
+---
+title: Random Number Generation
+date: 2024-08-08 12:26:52 +05300
+categories: [Mathematics, Probability-Statistics]
+tags: [mathematics, probability_statistics]     # TAG names should always be lowercase
+description: In this post we will learn how to generate random number.
+math: true
+---
+
+<div class="custom" markdown="1" style="font-family: Verdana"> 
+
+## 1. Inverse Transform Sampling
+
+Suppose that we are able to generate random variables ~ $U[0,1]$. The question is: how to generate other random variables using it?
+
+> Note: Random Variable is nothing but a mapping from physical probabilistic event to some predefined set, like mapping of a coin result (face up and face down) to {0, 1}. Now there will be a probability law for occurence of events in physical domain, that translates to probability distribution for our random variable. When we say a random variable X, we are talking about a function in the strictest sense, and when we talk about its probability distribution, we are actually talking about the translated probability law. But for all our purposes, when we say X is sampled from $P_X$, we can just sample from its range (i.e. [0,1] in case of uniform random variable) with law $P_X$, instead of thinking in terms of sampling of events, finding its probablity law and retranslation (you can always reconstrut the event, i.e. calculate inverse). Basically random variables provides a mathematical way to create a standard "pure" probabilistic object and not worry about particularities of physical events, allows for generalizability and wider applicability.
+{: .prompt-info}
+
+Consider the following operation: We sample x ~ $U[0,1]$, and then we multiply $x$ by $f$ defined by:
+
+$$
+\begin{align*}
+    f(x) =
+    \begin{cases}
+    x & 0 \leq x \leq 0.5 \\
+    2x - 0.5 & 0.5 < x \leq 1
+    \end{cases}
+\end{align*}
+$$
+
+Now $f([0,1]) = [0, 1.5]$, what is the probability law for this "Derived random variable"? Let us call it $Y$, Surely it is not same as uniform, for $\mathcal{Prob}(Y \in [0, 0.5]) = \mathcal{Prob}(X \in [0, 0.5]) = 0.5$, compared to $\mathcal{Prob}(Y \in [0.5, 1]) = \mathcal{Prob}(X \in [0.5, 0.75]) = 0.25$, and similary $\mathcal{Prob}(Y \in [1, 1.5]) = 0.25$.
+
+![Plot of F(x) with shaded region indicating same events](assets/img/Random_Number_Generation/RandomGeneration_example_1.png)
+_Plot of F(x) with shaded region indicating same events_
+
+What happened is the shrinking and elongation of events when mapped using a function! Unless the slope is 1, the event size would be different. This gives a natural way to create arbitary distribution, suppose $F: [0, 1] \to [-\infty, \infty]$ be a continuous and differentiable function (can be non-differentiable at finitely many point though, no worries, this case comes up in one of our examples). Let $Y$ be a derived r.v, defined by $F(X)$ (which just means sample of $Y$ = image of sample of $X$ under $F$).
+
+$$
+\begin{align*}
+    \mathcal{Prob} \left(Y \in [y, y + \delta y] \right) &= \mathcal{Prob} \left( F(X) \in [y, y + \delta y] \right) \\
+    &= \mathcal{Prob} (X \in [F^{-1}(y), F^{-1}(y + \delta y)]) \\
+\end{align*}
+$$
+
+Here as the $X$ is uniform, only the size of interval matter, assuming straight line with slope $F^\prime(F^{-1}(y))$, and $\delta y$ = $F^\prime \delta x$:
+
+$$
+\begin{align*}
+    \mathcal{Prob} \left(Y \in [y, y + \delta y] \right) &= \mathcal{Prob}(X \in [0,\delta x]) \\
+    P_Y(y) \delta y &= 1 \cdot \delta x \\
+    &= \frac{\delta y}{F^\prime (F^{-1}(y))} \\
+\end{align*}
+$$
+
+Hence, $P_Y(y) = 1/F^\prime (F^{-1}(y))$. Okay, we found out that - Distribution of derived r.v is not uniform and computed what exactly it is. But, how to do "converse", as in, is it always possible to find certain function $F$ s.t we get any desired probabilty distribution? Yes! For the $F$ is rather a very special and unique[^1] to every distribution!
+
+</div>
