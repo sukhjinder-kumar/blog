@@ -4,6 +4,9 @@ date: 2024-08-12 12:05:38 +05300
 categories: [Programming, ReinforcementLearning]
 tags: [programming, rl, openai_gym]     # TAG names should always be lowercase
 description: In this post we will learn how to use OpenAI gym library
+image:
+  path: /assets/img/OpenAI_Gym/blog_image.png
+  alt: LunarLander environment render (human mode)
 ---
 
 ## 1. Basic Usage
