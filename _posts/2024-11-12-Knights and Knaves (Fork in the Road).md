@@ -1,6 +1,6 @@
 ---
 title: A Simple Knights and Knaves Puzzle (Fork on the road)
-date: 2024-11-10 15:16:29 +05300
+date: 2024-11-12 15:16:29 +05300
 categories: [Puzzle]
 tags: [puzzle, logical, mathematics]     # TAG names should always be lowercase
 description: A simple logical puzzle from a class of puzzles involving interviewing one (or more) member(s) of truth tellers or liers clan. The identity of clan is not known. The aim is to get hold of an answer to some question.
