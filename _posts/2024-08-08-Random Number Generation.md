@@ -2,7 +2,7 @@
 title: Random Number Generation
 date: 2024-08-08 12:26:52 +05300
 categories: [Mathematics, Probability-Statistics]
-tags: [mathematics, probability_statistics]     # TAG names should always be lowercase
+tags: [mathematics, probability, statistics]     # TAG names should always be lowercase
 description: In this post we will learn how to generate random number.
 math: true
 ---
