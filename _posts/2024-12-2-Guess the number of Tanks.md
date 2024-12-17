@@ -2,7 +2,7 @@
 title: What is the number of tanks?
 date: 2024-12-2 16:35:21 +05300
 categories: [Mathematics, Probability-Statistics]
-tags: [logical, mathematics, probabilty, statistics]     # TAG names should always be lowercase
+tags: [logical, mathematics, probability, statistics]     # TAG names should always be lowercase
 description: A simple way to find size of uniform distribution given its samples.
 math: true
 ---
