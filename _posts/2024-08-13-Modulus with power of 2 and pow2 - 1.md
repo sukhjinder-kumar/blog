@@ -11,7 +11,7 @@ math: true
 
 ## 1. Modulus with power of 10s
 
-Consider numbers like 12, 14, 17, what is the modulus 10? 2, 4 and 7, rather quick of you! What we just did is, picked the unit digit. Technically, we imagined the number as breakdown into, there natural decomposition or "meaning", 10 + 2 / 4 / 7. And we use the fact that $(a + b) \text{ mod } c = (a \text{ mod } c + b \text{ mod } c) \text{ mod } c$, or for such a trivial case, just divided mentally, all proper tens go away and unit is the only remain.
+Consider numbers like 12, 14, 17, what is the modulus 10? 2, 4 and 7, rather quick of you! What we just did is, picked the unit digit. Technically, we imagined the number as breakdown into, there natural decomposition or "meaning", 10 + 2 / 4 / 7. And we use the fact that $$(a + b) \text{ mod } c$$ $$= (a \text{ mod } c + b \text{ mod } c)$$ $$\text{ mod } c$$, or for such a trivial case, just divided mentally, all proper tens go away and unit is the only remain.
 
 Say we want to compute $n \text{ mod } 10^s$, we just read the $s$ least significant digits. For example, 123 mod 100 = 23, read 2 ($10^{\boxed{2}}$) least significant digits. All the multiples of powers 10 > $10^2$, perfectly divide (in our mental calculations) and first 2 digits is all that remains.
 
