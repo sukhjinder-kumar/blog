@@ -11,7 +11,7 @@ math: true
 
 ## 1. Situation
 
-This article is completely insipred, and to a large extent the same content as [this]() numberphile video. The problem goes as follows, there are some number of tanks made, and our task is to guess how many. Each tank is labelled by a serial number. Every once in a while we come across a abandoned tank and note down its serial number. Using this information can we estimate the number of tanks?
+This article is completely insipred, and to a large extent the same content as [this](https://www.youtube.com/watch?v=WLCwMRJBhuI&pp=ygUbbnVtYmVycGhpbGUgbnVtYmVyIG9mIHRhbmtz) numberphile video. The problem goes as follows, there are some number of tanks made, and our task is to guess how many. Each tank is labelled by a serial number. Every once in a while we come across a abandoned tank and note down its serial number. Using this information can we estimate the number of tanks?
 
 ## 2. Solution
 
