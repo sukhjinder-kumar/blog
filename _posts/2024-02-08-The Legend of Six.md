@@ -1,5 +1,5 @@
 ---
-title: The Legend of Six
+title: The Legend of Six (PENDING)
 date: 2024-02-08 20:53:20 +0530
 categories: [Mathematics, Number-Theory]
 tags: [mathematics, number_theory, imo, puzzle]     # TAG names should always be lowercase

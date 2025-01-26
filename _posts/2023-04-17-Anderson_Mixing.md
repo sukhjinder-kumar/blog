@@ -1,5 +1,5 @@
 ---
-title: Anderson Mixing 
+title: Anderson Mixing (PENDING)
 date: 2023-04-17 10:57:20 +0530
 categories: [Optimization, MinMax]
 tags: [research_paper, optimization, machine_learning, data_science, artificial_intelligence]     # TAG names should always be lowercase

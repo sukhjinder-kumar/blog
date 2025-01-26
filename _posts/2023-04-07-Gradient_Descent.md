@@ -1,5 +1,5 @@
 ---
-title: Gradient Descent 
+title: Gradient Descent (PENDING)
 date: 2023-04-07 04:59:30 +0530
 categories: [Optimization]
 tags: [machine_learning, artificial_intelligence, optimization, data_science]     # TAG names should always be lowercase
