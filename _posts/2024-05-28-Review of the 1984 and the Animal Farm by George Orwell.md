@@ -42,8 +42,8 @@ The story is not per sai about Winston Smith, but rather of an ordinary indiviua
 
 The writing style is unique, one feels anxiety and uneasiness the character. And before I move on , I have to mention the famous quote, “Big Brother is watching you”. Its just iconic …
 
-## Farm Animal
+## Animal Farm
 
 ---
 
-Very similar in spirit to the 1984. It is allegorical novel, with animals (on a farm) undertaking an act of revolt (kicking out the owner of the farm), forming party and hierarchies (laborers, “thinkers”, etc) thereafter. It is a the story of how political structure evolves, and how people are left behind (both literally and metaphorically as in the thoughts administered during the uproar are slowly substituted with the thoughts of the previous ruling class, thereby feeling of alienation for the older generation). One can see how the hegemony (of humans, i.e. totalitarianism) is being passed on to the ruling class formed therein. It is a very short read, and depicts steps of evolution via milestones like formation of a new class, new rules, new projects, methodical demolition of previous thoughts, etc.
+Very similar in spirit to the 1984. It is allegorical novel, with animals (on a farm) undertaking an act of revolt (kicking out the owner of the farm), forming party and hierarchies (laborers, “thinkers”, etc) thereafter. It is a story of how political structure evolves, and how people are left behind (both literally and metaphorically as in the thoughts administered during the uproar are slowly substituted with the thoughts of the previous ruling class, thereby feeling of alienation for the older generation). One can see how the hegemony (of humans, i.e. totalitarianism) is being passed on to the ruling class formed therein. It is a very short read, and depicts steps of evolution via milestones like formation of a new class, new rules, new projects, methodical demolition of previous thoughts, etc.
