@@ -6,6 +6,8 @@ tags: [animal farm, george orwell, book, review]     # TAG names should always b
 description: This is the review of the 1984 and the Animal farm by George Orwell
 ---
 
+<div class="custom" markdown="1" style="font-family: Verdana">
+
 Before we began one must understand few socio-political terms -
 
 1. Totalitarian Society: Oxford writes, “a system of government that is centralized and dictatorial and requires complete subservience to the state”. It is basically a form of government which is authoritative in nature to an extreme. Some common aspects of a totalitarian state include massive censorship, control over private (like family, home) and public sphere (like the internet), political power is held by one individual (or a group, dictator), almost everything is state-owned, continual propaganda to reinforce the belief that the social conditions are improving.
@@ -47,3 +49,5 @@ The writing style is unique, one feels anxiety and uneasiness the character. And
 ---
 
 Very similar in spirit to the 1984. It is allegorical novel, with animals (on a farm) undertaking an act of revolt (kicking out the owner of the farm), forming party and hierarchies (laborers, “thinkers”, etc) thereafter. It is a story of how political structure evolves, and how people are left behind (both literally and metaphorically as in the thoughts administered during the uproar are slowly substituted with the thoughts of the previous ruling class, thereby feeling of alienation for the older generation). One can see how the hegemony (of humans, i.e. totalitarianism) is being passed on to the ruling class formed therein. It is a very short read, and depicts steps of evolution via milestones like formation of a new class, new rules, new projects, methodical demolition of previous thoughts, etc.
+
+</div>
