@@ -28,12 +28,12 @@ $$
 \end{align*}
 $$
 
-Now $$f([0,1]) = [0, 1.5]$$, what is the probability law for this "Derived random variable"? Let us call it $$Y$$, Surely it is not same as uniform, for $\mathcal{Prob}(Y \in [0, 0.5]) = \mathcal{Prob}(X \in [0, 0.5]) = 0.5$, compared to $\mathcal{Prob}(Y \in [0.5, 1]) = \mathcal{Prob}(X \in [0.5, 0.75]) = 0.25$, and similary $\mathcal{Prob}(Y \in [1, 1.5]) = 0.25$.
+Now $$f([0,1]) = [0, 1.5]$$, what is the probability law for this "Derived random variable"? Let us call it $$Y$$, Surely it is not same as uniform, for $$\mathcal{Prob}(Y \in [0, 0.5])$$ $$= \mathcal{Prob}(X \in [0, 0.5])$$ $$= 0.5$$, compared to $$\mathcal{Prob}(Y \in [0.5, 1])$$ $$= \mathcal{Prob}(X \in [0.5, 0.75])$$ $$= 0.25$$, and similary $$\mathcal{Prob}(Y \in [1, 1.5]) = 0.25$$.
 
 ![Plot of F(x) with shaded region indicating same events](assets/img/Random_Number_Generation/RandomGeneration_example_1.png)
 _Plot of F(x) with shaded region indicating same events_
 
-What happened is the shrinking and elongation of events when mapped using a function! Unless the slope is 1, the event size would be different. This gives a natural way to create arbitary distribution, suppose $F: [0, 1] \to [-\infty, \infty]$ be a continuous, monotonic (else we have consider to different segments) and differentiable function (can be non-differentiable at finitely many point though). Let $Y$ be a derived r.v, defined by $F(X)$ (which just means sample of $Y$ = image of sample of $X$ under $F$).
+What happened is the shrinking and elongation of events when mapped using a function! Unless the slope is 1, the event size would be different. This gives a natural way to create arbitary distribution, suppose $$F: [0, 1] \to [-\infty, \infty]$$ be a continuous, monotonic (else we have consider to different segments) and differentiable function (can be non-differentiable at finitely many point though). Let $$Y$$ be a derived r.v, defined by $$F(X)$$ (which just means sample of $$Y$$ = image of sample of $$X$$ under $$F$$).
 
 $$
 \begin{align*}
@@ -42,7 +42,7 @@ $$
 \end{align*}
 $$
 
-Here as the $X$ is uniform, only the size of interval matter, assuming straight line with slope $F^\prime(F^{-1}(y))$, and $\delta y$ = $F^\prime \delta x$:
+Here as the $$X$$ is uniform, only the size of interval matter, assuming straight line with slope $$F^\prime(F^{-1}(y))$$, and $$\delta y$$ = $$F^\prime \delta x$$:
 
 $$
 \begin{align*}
@@ -52,9 +52,9 @@ $$
 \end{align*}
 $$
 
-Hence, $P_Y(y) = 1/F^\prime (F^{-1}(y))$. Okay, we found out that - Distribution of derived r.v is not uniform and computed what exactly it is. But, how to do "converse", as in, is it always possible to find certain function $F$ s.t we get any desired probabilty distribution? Yes! For the $F$ is rather a very special and unique[^1] to every distribution! Let us ponder over this F, and try to make intutive sense in relation to the distribution. For starters, what is the CDF of F?
+Hence, $$P_Y(y) = 1/F^\prime (F^{-1}(y))$$. Okay, we found out that - Distribution of derived r.v is not uniform and computed what exactly it is. But, how to do "converse", as in, is it always possible to find certain function $$F$$ s.t we get any desired probabilty distribution? Yes! For the $$F$$ is rather a very special and unique[^1] to every distribution! Let us ponder over this F, and try to make intutive sense in relation to the distribution. For starters, what is the CDF of F?
 
-> CDF (cummulative distribution function) is nothing but a function over range of r.v, s.t CDF(x) = Probability of $X \leq x$. 
+> CDF (cummulative distribution function) is nothing but a function over range of r.v, s.t CDF(x) = Probability of $$X \leq x$$. 
 {: .prompt-info}
 
 $$
@@ -65,7 +65,7 @@ $$
 \end{align*}
 $$
 
-Let $G = F^{-1}$, this implies $G^\prime(y) = 1/F^\prime (x)$[^2], where $y = F(x)$. Doing this substitution above we get 
+Let $$G = F^{-1}$$, this implies $$G^\prime(y) = 1/F^\prime (x)$$[^2], where $$y = F(x)$$. Doing this substitution above we get 
 
 ![Inverse function](/assets/img/Random_Number_Generation/inverse_function.jpg)
 _Inverse Function. Source: https://courses.lumenlearning.com/suny-openstax-calculus1/chapter/derivatives-of-inverse-functions/_
@@ -77,13 +77,13 @@ $$
 \end{align*}
 $$
 
-We assumed $F(+-\infty) = 0$ (consequently the inverse is 0) as otherwise distribution will be illdefined (i.e. total probability = 1 be under pressure). I.e. the CDF is nothing but the inverse of $F$. So we have found a way to generate any random variable:
+We assumed $$F(+-\infty) = 0$$ (consequently the inverse is 0) as otherwise distribution will be illdefined (i.e. total probability = 1 be under pressure). I.e. the CDF is nothing but the inverse of $$F$$. So we have found a way to generate any random variable:
 
 1. Find the CDF
 2. Compute its Inverse
-3. Using it find the derived r.v with $U[0, 1]$, it will generate the required r.v!
+3. Using it find the derived r.v with $$U[0, 1]$$, it will generate the required r.v!
 
-There is a much cleaner (natural, to be precise) way to arrive at this conclusion. The CDF ($G$) is continuous, sufficiently differentiable and monotonic. Its is a function from domain of r.v. to [0,1]. This provides a very natural translation (map) between 0 to 1 strip and our domain. Here $P_Y(y) = G^\prime(y)$ (DIY, start with identifying the equivalent region / event), and this is the desired PDF (probability density function, or $P_Y(y)$, for pdf is nothing but derivative of CDF)!
+There is a much cleaner (natural, to be precise) way to arrive at this conclusion. The CDF ($$G$$) is continuous, sufficiently differentiable and monotonic. It is a function from domain of r.v. to [0,1]. This provides a very natural translation (map) between 0 to 1 strip and our domain. Here $$P_Y(y) = G^\prime(y)$$ (DIY, start with identifying the equivalent region / event), and this is the desired PDF (probability density function, or $$P_Y(y)$$, for pdf is nothing but derivative of CDF)!
 
 ## 2. How to generate Uniform [0,1]
 
@@ -95,13 +95,13 @@ This is a very broad topics in its own rights, and I am not the merrier myself. 
 
 ### 2.1 Von Neumann Algorithm
 
-Before we detail the algorithms, there is a little problem: Computers can't work with real number, it has finitely many bits and as such can only store integers. So what we are going to do is, generate numbers (rational, and ideally uniformly) of form $m/M$, where $M$ is fixed to some large number and $m \sim [0, M-1]$. The algorithm is very simple, let us see with an example. Pick $M = 10000$, so $m \in [0, 9999]$.
+Before we detail the algorithms, there is a little problem: Computers can't work with real number, it has finitely many bits and as such can only store integers. So what we are going to do is, generate numbers (rational, and ideally uniformly) of form $$m/M$$, where $$M$$ is fixed to some large number and $$m \sim [0, M-1]$$. The algorithm is very simple, let us see with an example. Pick $$M = 10000$$, so $$m \in [0, 9999]$$.
 
 1. Pick any initial $$m$$ (seed). One can also pick this seed using "physical" randomness like coin flip or noise.
 
-2. Square the number, remove the first 2 digits (most significant digits, left side) and keep the new first 4 digits. I.e. out of the 8 digits (square of 4 digit number can at max have 8 digits, think from the multiplication table thing we do or any other way ...), keep the middle 4. In other words, we define recursion as follows $$m_{i+1} = [m_i / 100] \text{ mod } 10000$$, where "[]" is the integer part (removes decimal, or equivalent to removing last 2 digits).
+2. Square the number, remove the first 2 digits (most significant digits, left side) and keep the new first 4 digits. I.e. out of the 8 digits (square of 4 digit number can at max have 8 digits, think from the multiplication table thing we do or any other way ...), keep the middle 4. In other words, we define recursion as follows $$m_{i+1}$$ $$= [m_i / 100] \text{ mod } 10000$$, where "[]" is the integer part (removes decimal, or equivalent to removing last 2 digits).
 
-Example, $$m_0 = 5232 \to m_1 = 3738 \to m_2 = 9726 \to m_3 = 5950 \cdots$$, and the random output being 0.5232, 0.3738, and so on.
+Example, $$m_0 = 5232$$ $$\to m_1 = 3738$$ $$\to m_2 = 9726$$ $$\to m_3 = 5950$$ $$\cdots$$, and the random output being 0.5232, 0.3738, and so on.
 
 ```py
 class VonNeumannAlgorithm():
@@ -139,7 +139,7 @@ Now there are a few questions, first why (and how) does it mimic uniform distrib
 
 [^2]: Quite simple to see. First one must understand, inverse is nothing but the same function (visualize geometrically on cartesian plane), taken mirror image about $$y = x$$. See the attached image above. Now understand that the slope is same as measured from the axis, for it is the same function looked that way! In other words, let a vector in the direction of tangent to F be (a,b) , now when you rotate the function the derivative is also rotated in the same way (imagine F as sum of piecewise linear function, tangent is nothing but the function itself in this case). When you rotate a (a, b) vector around $$y = x$$, the new vector is (b, a), for component along x becomes component along y and component along y becomes component along x. The slope given by b/a becomes a/b which is but inverse.
 
-[^3]: Church-Turing hypothesis states that turing maching and $\lambda$ calculus (~premitive form of programmign language) are equivalent in terms of generating algorithms. 
+[^3]: Church-Turing hypothesis states that turing maching and $$\lambda$$ calculus (~premitive form of programmign language) are equivalent in terms of generating algorithms. 
 
 
 </div>
