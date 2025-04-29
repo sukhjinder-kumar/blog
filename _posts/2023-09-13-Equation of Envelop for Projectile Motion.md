@@ -1,7 +1,7 @@
 ---
 title: Equation of Envelop for Projectile Motion 
 date: 2023-09-13 15:11:20 +0530
-categories: [Physics]
+categories: [Physics, Kinematics]
 tags: [physics, kinematics]     # TAG names should always be lowercase
 summary: In this blog post we are going to find the equation of the envelope for a projectile motion. We will find maximum range and corresponding angle when object is lauched from an elevated surface.
 description: We are going to find the equation of the envelope for a projectile motion, maximum range and corresponding angle when object is lauched from an elevated surface.
@@ -12,7 +12,7 @@ math: true
 
 ## 1. Basic Theory
 
-You might know the angle for which range is maximum on level ground, namely $45^\circ$. Notice that this is independent of velocity! For those who haven't seen this here is the little proof -
+You might know the angle for which range is maximum on level ground, namely $$45^\circ$$. Notice that this is independent of velocity! For those who haven't seen this here is the little proof -
 
 $$
 \begin{align*}
@@ -21,19 +21,19 @@ $$
 \end{align*}
 $$
 
-Here we can calculate time using $S = ut + 1/2at^2$, where acceleration is $-g$, $S$ is 0 as starting and final position are the same, and $u$ is $v\sin\theta$.
+Here we can calculate time using $$S = ut + 1/2at^2$$, where acceleration is $$-g$$, $$S$$ is 0 as starting and final position are the same, and $$u$$ is $$v\sin\theta$$.
 
 $$
 R = \frac{v^2 \sin 2\theta}{g}
 $$
 
-Clearly $\sin$ is maximum at $90^\circ$, giving $\theta = 45^\circ$
+Clearly $$\sin$$ is maximum at $$90^\circ$$, giving $$\theta = 45^\circ$$
 
 ## 2. Intuition?
 
-Now we alter the problem slightly. Instead of a level surface we launch the ball from a cliff. What is angle that corresponds to the maximum range when you throw the object (with velocity $v$) from a cliff ($h$ height from the surface)?
+Now we alter the problem slightly. Instead of a level surface we launch the ball from a cliff. What is angle that corresponds to the maximum range when you throw the object (with velocity $$v$$) from a cliff ($$h$$ height from the surface)?
 
-Before going any further let me comment on one certainty, it will be $\to 0^\circ$! Why you may ask. The idea is horizontal throw ($\theta = 0^\circ$) has the most horizontal velocity. The only reason why it doesn't correspond to max range is due to time of flight. However when you introduce a cliff, every throw gets some time in the downfall. Let us for sake of all non-zero angle throws, say downfall time from cliff to ground is same. This is not correct as all the other throws (except $0^\circ$) have some non-zero downward velocity reducing time, but let us be generous to them. Apart from this, we have a constant time, all other also enjoys time taken during the parabolic arc above the cliff. Let us say all takes time corresponding to $90^\circ$, i.e maximum time of flight. The idea is even in best case total time, the ratio of time of parabolic arc above cliff and time in downhill tends to 0 for constant velocities! The reasoning being former is constant (function of velocity) whereas later increases with height of cliff. Now when we compute range, it will be $v_x \cdot \text{TotalTime}$. Total time is something very large (downhill) + something constant (time for parabolic arc and hence small). Multiplied by $v_x$ yields
+Before going any further let me comment on one certainty, it will be $$\to 0^\circ$$! Why you may ask. The idea is horizontal throw ($$\theta = 0^\circ$$) has the most horizontal velocity. The only reason why it doesn't correspond to max range is due to time of flight. However when you introduce a cliff, every throw gets some time in the downfall. Let us for sake of all non-zero angle throws, say downfall time from cliff to ground is same. This is not correct as all the other throws (except $$0^\circ$$) have some non-zero downward velocity reducing time, but let us be generous to them. Apart from this, we have a constant time, all other also enjoys time taken during the parabolic arc above the cliff. Let us say all takes time corresponding to $$90^\circ$$, i.e maximum time of flight. The idea is even in best case total time, the ratio of time of parabolic arc above cliff and time in downhill tends to 0 for constant velocities! The reasoning being former is constant (function of velocity) whereas later increases with height of cliff. Now when we compute range, it will be $$v_x \cdot \text{TotalTime}$$. Total time is something very large (downhill) + something constant (time for parabolic arc and hence small). Multiplied by $$v_x$$ yields
 
 $$
 \begin{align*}
@@ -44,9 +44,9 @@ $$
 \end{align*}
 $$
 
-Compared to horizontal throw, $R(h) = v \times t_{downhill}$.
+Compared to horizontal throw, $$R(h) = v \times t_{downhill}$$.
 
-Clearly for sufficiently large h, or concretely large $t_{downhill}$, for every $\theta$ we will have Range for horizontal throw > Range for inclined throw. Here is the calculation if you are a bit skeptical -
+Clearly for sufficiently large $$h$$, or concretely large $$t_{downhill}$$, for every $$\theta$$ we will have Range for horizontal throw > Range for inclined throw. Here is the calculation if you are a bit skeptical -
 
 $$
 \begin{align*}
@@ -56,18 +56,18 @@ $$
 \end{align*}
 $$
 
-In above everything is constant, only $t_{downhill}$ depends on $h$. For large $t_{downhill}$ above inequality is trivially satisfied. Above calculation might seem elaborate but in essence what we showed is every throw gains some constant horizontal distance in its above the cliff parabolic arc. However as $v > v\cos\theta$, after some $h$ that little increment fades away, and the relative difference in velocity catches up to that initial gain. It is like 2 car racing, one with velocity $v$ and other with $v\cos\theta$ with later having a head start of say some distance $x$ (corresponding to horizontal gain in parabolic arc). It is just matter of time when faster catches it up![^1]
-Using same analogy one can say after sufficient height, every throw will surpass throw that is launched at higher angle to it! I.e say, $30^\circ$ after some point will surpass $60^\circ$. I don't know how to put the intuition more concretely but there is a strong urge to claim that $\theta$, corresponding to maximum range, will decrease monotonically till $0^\circ$.
+In above everything is constant, only $$t_{downhill}$$ depends on $$h$$. For large $$t_{downhill}$$ above inequality is trivially satisfied. Above calculation might seem elaborate but in essence what we showed is every throw gains some constant horizontal distance in its above the cliff parabolic arc. However as $$v > v\cos\theta$$, after some $$h$$ that little increment fades away, and the relative difference in velocity catches up to that initial gain. It is like 2 car racing, one with velocity $$v$$ and other with $$v\cos\theta$$ with later having a head start of say some distance $$x$$ (corresponding to horizontal gain in parabolic arc). It is just matter of time when faster catches it up![^1]
+Using same analogy one can say after sufficient height, every throw will surpass throw that is launched at higher angle to it! I.e say, $$30^\circ$$ after some point will surpass $$60^\circ$$. I don't know how to put the intuition more concretely but there is a strong urge to claim that $$\theta$$, corresponding to maximum range, will decrease monotonically till $$0^\circ$$.
 
 Now let us come back the original problem of actually finding the angle.
 
 ## 3. Angle for maximum Range - First Try
 
-We want to find the angle $\theta$ that corresponds to maximum $x_t$, as shown in the below figure.
+We want to find the angle $$\theta$$ that corresponds to maximum $$x_t$$, as shown in the below figure.
 
 ![Projectile Motion](/assets/img/Projectile_Motion/projectilemotion.svg){: width="300"}
 
-Range is equal to horizontal velocity times time of flight. Horizontal velocity is $vcos\theta$ and remains constant throughout the journey. Time of flight is obtained by solving $S = ut + 1/2 at^2$, subbing $vsin\theta$ for u, -h for S, -g for a and using quadratic formula we get
+Range is equal to horizontal velocity times time of flight. Horizontal velocity is $$vcos\theta$$ and remains constant throughout the journey. Time of flight is obtained by solving $$S = ut + 1/2 at^2$$, subbing $$vsin\theta$$ for u, -h for S, -g for a and using quadratic formula we get
 
 $$
 \begin{align*}
@@ -84,7 +84,7 @@ R &= \frac{vcos\theta}{g} \left( vsin\theta + \sqrt{v^2sin^2\theta + 2gh} \right
 \end{align*}
 $$
 
-Notice here if we put h = 0, we get maximum range to be $\frac{v^2sin2\theta}{2g}$, which is max at $\theta = 45^\circ$.
+Notice here if we put h = 0, we get maximum range to be $$\frac{v^2sin2\theta}{2g}$$, which is max at $$\theta = 45^\circ$$.
 
 $$
 \begin{align*}
@@ -92,7 +92,7 @@ $$
 \end{align*}
 $$
 
-Assign $H$ to be $\frac{v^2}{2g}$, we get -
+Assign $$H$$ to be $$\frac{v^2}{2g}$$, we get -
 
 $$
 \begin{align*}
@@ -109,7 +109,7 @@ $$
 \end{align*}
 $$
 
-Where $\alpha = h/H$. Now this is a really messy equation for a maximizing task. We will try to convert the above equation into a polynomial like equation and you will see why!
+Where $$\alpha = h/H$$. Now this is a really messy equation for a maximizing task. We will try to convert the above equation into a polynomial like equation and you will see why!
 
 $$
 \begin{align*}
@@ -117,7 +117,7 @@ $$
 \end{align*}
 $$
 
-Here replace $sin\theta$ with variable t -
+Here replace $$sin\theta$$ with variable t -
 
 $$
 \begin{align*}
@@ -125,13 +125,13 @@ $$
 \end{align*}
 $$
 
-One can reach a similar looking equation (not exactly the same) by subbing t for $cos\theta$. This is not a polynomial equation because when you try to eliminate square roots from the above equation, you first square on both sides. Giving $y^2$, however that it not all. To remove interior square root, after first step you will move all the non-square root terms to LHS and square it. Giving a equation which has multiple coupled degrees for both t and $\frac{R}{2H}$, up to 4th degree. This is a hard equation to crack!
+One can reach a similar looking equation (not exactly the same) by subbing t for $$cos\theta$$. This is not a polynomial equation because when you try to eliminate square roots from the above equation, you first square on both sides. Giving $$y^2$$, however that it not all. To remove interior square root, after first step you will move all the non-square root terms to LHS and square it. Giving a equation which has multiple coupled degrees for both t and $$\frac{R}{2H}$$, up to 4th degree. This is a hard equation to crack!
 
 ## 4. Equation of Envelop
 
 As we just saw finding angle is not so straight forward. The calculations becomes very messy and a need of different approach arises. We will now take a bit of detour and study the overall shape of the trajectory. The reason in some vague sense is, above we are trying to tackle 2 problems at the same time. Finding maximum range and corresponding angle. If we were able to solve for optimal angle, we could just plug and get maximum range. This coupled nature might be attributed to above mess. But unlike a purely math problem we can solve the above "hard" problem by "peeking at the solution", say by intuition or by some other method. Imagine a problem take x lines to solve. If someone lets our a characteristic of the answer or sub solution, we can incorporate that information and reduce our solution length, maybe by less thing to prove, base our proof on top it, etc. Even in the worst case you can't magically increase the complexity of the problem! By using ideas from overall shape of envelope of trajectories, we will find maximum range standalone and then turn to optimal angle.
 
-Let us first find the equation of our projectile. The x-coordinate is $vcos\theta \cdot t$ and y-coordinate is given by $y = vsin\theta \cdot t -1/2gt^2$. We can substitute t from x in y and get our desired equation -
+Let us first find the equation of our projectile. The x-coordinate is $$vcos\theta \cdot t$$ and y-coordinate is given by $$y = vsin\theta \cdot t -1/2gt^2$$. We can substitute t from x in y and get our desired equation -
 
 $$
 \begin{align*}
@@ -140,7 +140,7 @@ y &= vsin\theta \frac{x}{vcos\theta} - \frac{1}{2}g\frac{x^2}{v^2cos^2\theta} \\
 \end{align*}
 $$
 
-Comparing it with equation of parabola, $ax^2 + bx + c = 0$ we get
+Comparing it with equation of parabola, $$ax^2 + bx + c = 0$$ we get
 
 $$
 \begin{align*}
@@ -159,16 +159,16 @@ $$
 \end{align*}
 $$
 
-Where we used the identity, $sin2\theta = 2sin\theta cos\theta$. Now our aim is to find equation of envelope. An envelop can be thought of as the boundary across which the family of curve don't penetrate. For example, consider family of curves given by $y = mx$ and $m \in [-1,1]$. As we can see from the diagram, lines $y = x$ and $y = -x$ act as boundary for the region that is completely covered by family of curves.
+Where we used the identity, $$sin2\theta = 2sin\theta cos\theta$$. Now our aim is to find equation of envelope. An envelop can be thought of as the boundary across which the family of curve don't penetrate. For example, consider family of curves given by $$y = mx$$ and $$m \in [-1,1]$$. As we can see from the diagram, lines $$y = x$$ and $$y = -x$$ act as boundary for the region that is completely covered by family of curves.
 
 ![Envelop for family of lines](/assets/img/Projectile_Motion/line_envelope.svg){: width="300"}
 
-In our case $\theta$ is the parameter for family of curves. Changing the angle we get different curves, we are looking for the equation that "overlaps" them all. Following figure clearly illustrates the point
+In our case $$\theta$$ is the parameter for family of curves. Changing the angle we get different curves, we are looking for the equation that "overlaps" them all. Following figure clearly illustrates the point
 
 ![Envelop for family of projectiles](/assets/img/Projectile_Motion/parabola_envelope.png){: width="300"}
 _Image taken from [IB Maths Resources](https://ibmathsresources.com/2020/04/06/envelope-of-projectile-motion/)_
 
-Note that every point inside the envelope is reached by some curve! You can easily verify the claim from equation of curve. Or intuitively one can as following, at $\theta = 90^\circ$, the curve is straight up and down in a line. When we can decrease angle, the parabola base (non-zero root) moves rightwards and the utmost point moves downward. As this process doesn't create any sudden jumps, imagine the point x,y on the plane (within the envelope). When you are decrease the angle or stretching the base, the downward motion curve sweeps the entire region! and consequently our desired point.
+Note that every point inside the envelope is reached by some curve! You can easily verify the claim from equation of curve. Or intuitively one can as following, at $$\theta = 90^\circ$$, the curve is straight up and down in a line. When we can decrease angle, the parabola base (non-zero root) moves rightwards and the utmost point moves downward. As this process doesn't create any sudden jumps, imagine the point x,y on the plane (within the envelope). When you are decrease the angle or stretching the base, the downward motion curve sweeps the entire region! and consequently our desired point.
 
 We can find the equation of envelope by noting that its y-coordinate is the highest y-coordinate amongst all curves (all angles). I.e imagine all curves and pick a point x on x-axis. The y-coordinate is the y-coordinate of the curve that is highest at point x.
 
@@ -190,7 +190,7 @@ F^\prime(\theta) &= \sec^2\theta (k - 2x\tan\theta)  = 0 \\
 \end{align*}
 $$
 
-We get either $\sec\theta = 0$ or $\tan\theta = k/2x$, where k is $2v^2/g$. We can confirm this is indeed maxima we are talking about, by looking at the second derivative. Here $F^\prime$ changes from +ve to -ve, at $0^\circ$ it is +ve as k is positive but as $\theta$ increase (tan goes from 0 to $\infty$) its turns 0 and than -ve monotonically due to monotonic nature of $\tan$. So we have $\theta^* = \tan^{-1}(k/2x)$. Substituting this $\theta$ in our equation of envelope we get -
+We get either $$\sec\theta = 0$$ or $$\tan\theta = \frac{k}{2x}$$, where k is $$\frac{2v^2}{g}$$. We can confirm this is indeed maxima we are talking about, by looking at the second derivative. Here $$F^\prime$$ changes from +ve to -ve, at $$0^\circ$$ it is +ve as k is positive but as $$\theta$$ increase (tan goes from 0 to $$\infty$$) its turns 0 and than -ve monotonically due to monotonic nature of $$\tan$$. So we have $$\theta^* = \tan^{-1}\left(\frac{k}{2x}\right)$$. Substituting this $$\theta$$ in our equation of envelope we get -
 
 $$
 \begin{align*}
@@ -207,14 +207,14 @@ $$
 \boxed{y = \frac{v^2}{2g} - \frac{g}{2v^2}x^2}
 $$
 
-Let $H = v^2/2g$, it is the height reached at $0^\circ$ (we can use above equation to find max height! thought angle we still need to guess). One can write above equation as $y = H - x^2/4H$. It is a parabola with roots $-2H$ and $2H$. We can use the equation of envelope to find maximum range, just plug y = -h!
+Let $$H = v^2/2g$$, it is the height reached at $$0^\circ$$ (we can use above equation to find max height! thought angle we still need to guess). One can write above equation as $$y = H - x^2/4H$$. It is a parabola with roots $$-2H$$ and $$2H$$. We can use the equation of envelope to find maximum range, just plug y = -h!
 
 $$
 \boxed{R_{\text{max}} = \sqrt{4H(H+h)}}
 
 $$
 
-Now what about $\theta^*$? We will use our equation for curve (given $\theta$) and find which curve allows for above range. Put y = -h and x = $R_{\text{max}}$.
+Now what about $$\theta^*$$? We will use our equation for curve (given $$\theta$$) and find which curve allows for above range. Put y = -h and x = $$R_{\text{max}}$$.
 
 $$
 \begin{align*}
@@ -251,19 +251,19 @@ $$
 
 ## 5. Further Problems
 
-As we on the topic, let us discuss more about nature of the family of curve. Concretely, say you have a sprinklers tossing water uniformly at all angles in all direction (symmetry in 2D surface). Now what is the density of water w.r.t to radial distance from center. I.e there will be angles for which range doesn't change much (spoiler: $\pi/4$), there water will log more compared to angles for which slight change results in greater range change. Let us try to model this problem -
+As we on the topic, let us discuss more about nature of the family of curve. Concretely, say you have a sprinklers tossing water uniformly at all angles in all direction (symmetry in 2D surface). Now what is the density of water w.r.t to radial distance from center. I.e there will be angles for which range doesn't change much (spoiler: $$\pi/4$$), there water will log more compared to angles for which slight change results in greater range change. Let us try to model this problem -
 
-We know $R = v^2sin2\theta/g$, ignore the constant for a while $R \sim sin2\theta$.
+We know $$R = v^2sin2\theta/g$$, ignore the constant for a while $$R \sim sin2\theta$$.
 
 ![Sin(2angle)](/assets/img/Projectile_Motion/sin2angle.svg){: width="400"}
 
-Little change in R, due to little nudge in $\theta$, is given by $dR = R^\prime(\theta)d\theta$, or $dR = \cos2\theta d\theta$. We ignored the constant again, you will see in a moment why we did so. We can frame our problem a bit mathematically by saying what we are looking for is the "measure" of logged water. Our measure is inversely proportional to $dR/d\theta$. As explained earlier, if a little nudge in angle leads to tail of water moving away less water is logged. One can understand this as for every point B on ground, for water to fall at B, there is a little window of $\theta$ for it. Actually 2 little windows near $\theta$ and $90^\circ - \theta$, but 2 is just constant so we don't care. Now for B there are just these 2 points, but what we are talking about is what is the window length for points in proximity of B. I.e consider the region of say length $\Delta l$ around B, how big is the window for it? I.e how big is this interval $[\theta_{B-\Delta l}, \theta_{B+\Delta l}]$? We divide by $\Delta l$ just to remove it from our interval length as this is also a constant.
+Little change in R, due to little nudge in $$\theta$$, is given by $$dR = R^\prime(\theta)d\theta$$, or $$dR = \cos2\theta d\theta$$. We ignored the constant again, you will see in a moment why we did so. We can frame our problem a bit mathematically by saying what we are looking for is the "measure" of logged water. Our measure is inversely proportional to $$\frac{dR}{d\theta}$$. As explained earlier, if a little nudge in angle leads to tail of water moving away less water is logged. One can understand this as for every point B on ground, for water to fall at B, there is a little window of $$\theta$$ for it. Actually 2 little windows near $$\theta$$ and $$90^\circ - \theta$$, but 2 is just constant so we don't care. Now for B there are just these 2 points, but what we are talking about is what is the window length for points in proximity of B. I.e consider the region of say length $$\Delta l$$ around B, how big is the window for it? I.e how big is this interval $$[\theta_{B-\Delta l}, \theta_{B+\Delta l}]$$? We divide by $$\Delta l$$ just to remove it from our interval length as this is also a constant.
 
 $$
 \mu_B \sim \Delta \theta \\
 $$
 
-We know $\Delta l = cos2\theta \Delta \theta$, substituting in above and removing $\Delta l$ as it is just a constant we don't care about -
+We know $$\Delta l = cos2\theta \Delta \theta$$, substituting in above and removing $$\Delta l$$ as it is just a constant we don't care about -
 
 $$
 \begin{align*}
@@ -274,16 +274,16 @@ $$
 $$
 
 ![plot of measure](/assets/img/Projectile_Motion/measure.png){: width="300"}
-_x-axis is $x_B/2H$ and y-axis is $\mu$_
+_x-axis is $$x_B/2H$$ and y-axis is $$\mu$$_
 
 
-$x_B$ is the x-coordinate for point B. What $\mu_B$ indicate is the linear density of water logged, if you know about measure or pdf, probability density function, try thinking in terms of that. This will also clear how density can be infinite near $x_B = 2H$!. We removed all the constants as we are going to take care it now. Say total volume of water (or mass) fired through the hose is V. Note $\mu_B = 0$ for $x_B > 2H$.
+$$x_B$$ is the x-coordinate for point B. What $$\mu_B$$ indicate is the linear density of water logged, if you know about measure or pdf, probability density function, try thinking in terms of that. This will also clear how density can be infinite near $$x_B = 2H$$!. We removed all the constants as we are going to take care it now. Say total volume of water (or mass) fired through the hose is V. Note $$\mu_B = 0$$ for $$x_B > 2H$$.
 
 $$
 \text{Vol} = k\int_l \mu_B dl \\
 $$
 
-$\mu_B = 4H d\theta/dl$, using $dR = 2\cos2\theta (2H) d\theta$ (verify it once!).
+$$\mu_B = 4H d\theta/dl$$, using $$dR = 2\cos2\theta (2H) d\theta$$ (verify it once!).
 
 $$
 \begin{align*}
@@ -294,7 +294,7 @@ V &= k\int_0^{2H} \mu dl \\
 \end{align*}
 $$
 
-Giving $k = V/H\pi$. This is our normalization factor. Finally volume distribution (radially symmetry allows for no change! so our calculation holds same if sprinkler throws water $360^\circ$) around B is given by -
+Giving $$k = V/H\pi$$. This is our normalization factor. Finally volume distribution (radially symmetry allows for no change! so our calculation holds same if sprinkler throws water $$360^\circ$$) around B is given by -
 
 $$
 \begin{align*}
@@ -306,7 +306,7 @@ v &= k\int_l^{l+\Delta l} \mu dl \\
 \end{align*}
 $$
 
-Here $l = x_B$. Note is you put l = 0 and $\Delta l = 2H$, you get V as expected. Following is the plot for volume with H = 1, V = 1, dl = 0.01-
+Here $$l = x_B$$. Note is you put l = 0 and $$\Delta l = 2H$$, you get V as expected. Following is the plot for volume with H = 1, V = 1, dl = 0.01-
 
 ![bar plot of Volume](/assets/img/Projectile_Motion/volume_bar.png){: width="400"}
 _Plot only for selected points_
