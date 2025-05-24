@@ -1,8 +1,8 @@
 ---
-title: On Random Variables (PENDING)
+title: Probability and Statistics 101 (PENDING)
 date: 2024-12-19 15:49:21 +05300
 categories: [Mathematics, Probability-Statistics]
-tags: [logical, mathematics, probability]     # TAG names should always be lowercase
+tags: [logical, mathematics, probability, theory_course]     # TAG names should always be lowercase
 description: We talk about various convergence notions for random variables
 math: true
 ---

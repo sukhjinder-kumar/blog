@@ -1,7 +1,7 @@
 ---
 title: Anderson Mixing (PENDING)
 date: 2023-04-17 10:57:20 +0530
-categories: [Optimization, MinMax]
+categories: [Mathematics, Optimization]
 tags: [research_paper, optimization, machine_learning, data_science, artificial_intelligence]     # TAG names should always be lowercase
 summary: This is very similar to momentum based method, sort of its generalisation 
 description: This is very similar to momentum based method, sort of its generalisation 

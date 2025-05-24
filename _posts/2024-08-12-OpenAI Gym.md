@@ -1,7 +1,7 @@
 ---
 title: OpenAI Gym
 date: 2024-08-12 12:05:38 +05300
-categories: [Programming, ReinforcementLearning]
+categories: [Programming, Reinforcement-Learning]
 tags: [programming, rl, openai_gym]     # TAG names should always be lowercase
 description: In this post we will learn how to use OpenAI gym library
 image:

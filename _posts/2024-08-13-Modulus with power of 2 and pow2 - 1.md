@@ -1,7 +1,7 @@
 ---
 title: Fast Modulus calculate of power of 2 and pow2 - 1
 date: 2024-08-13 11:36:38 +05300
-categories: [Computer-Science]
+categories: [Computer-Science, General]
 tags: [programming, number_theory, mathematics]     # TAG names should always be lowercase
 description: In this post we will learn how to efficiently calculate modulus w.r.t power of 2 and pow2 - 1.
 math: true

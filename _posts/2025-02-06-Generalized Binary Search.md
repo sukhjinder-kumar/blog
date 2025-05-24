@@ -9,7 +9,13 @@ math: true
 
 <div class="custom" markdown="1" style="font-family: Verdana">
 
-## 1. Problem Statement
+## Big-O Notation
+
+## Binary Search
+
+Consider the problem of searching from an sorted array (with distinct elements). What is the fastest and most efficient way to do so? The naive searching, one by one, sets the lower bound for time complexity with $$\mathcal{O}(N)$$ where $$N$$ being the array length. Here the space complexity is constant. We can do a whole lot better by using the "sorted" property.
+
+## Problem Statement
 
 The standard binary search involves, at each time step, in a sorted array, partitioning the array into 2 halves about the middle number and pruning one of them based on the fact whether our search number is greater or less than the middle number. 
 
