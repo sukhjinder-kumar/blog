@@ -2,7 +2,7 @@
 title: On Generating Functions (PENDING)
 date: 2025-02-03 12:16:08 +05300
 categories: [Mathematics, Enumerative-Combinatoric]
-tags: [mathematics, counting, permutation, combination]     # TAG names should always be lowercase
+tags: [pending, mathematics, counting, permutation, combination]     # TAG names should always be lowercase
 description: Explanation and Applications of generating functions
 math: true
 ---

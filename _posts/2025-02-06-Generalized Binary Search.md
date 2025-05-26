@@ -2,7 +2,7 @@
 title: Generalized Binary Search (PENDING)
 date: 2025-02-06 21:05:13 +05300
 categories: [Computer-Science, Algorithms]
-tags: [mathematics, computer_science, binary_search, algorithms]     # TAG names should always be lowercase
+tags: [pending, mathematics, computer_science, binary_search, algorithms]     # TAG names should always be lowercase
 description: How to adapt binary search to a setting when the elements aren't equally likely present in the set.
 math: true
 ---

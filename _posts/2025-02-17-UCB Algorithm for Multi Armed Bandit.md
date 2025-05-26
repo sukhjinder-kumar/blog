@@ -2,7 +2,7 @@
 title: UCB Algorithm for Multi Armed Bandit (PENDING)
 date: 2025-02-17 20:43:32 +05300
 categories: [Computer-Science, Multi-Arm-Bandit]
-tags: [mathematics, computer_science, multi_armed_bandit, bandit, algorithm, ucb]     # TAG names should always be lowercase
+tags: [pending, mathematics, computer_science, multi_armed_bandit, bandit, algorithm, ucb]     # TAG names should always be lowercase
 description: Upper Confidence bound algorithm for multi armed bandit problem. We also derive its regret bounds and show that is sublinear and thus better than naive algorithms.
 math: true
 image:

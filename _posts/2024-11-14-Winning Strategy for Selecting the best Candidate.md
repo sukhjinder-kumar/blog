@@ -2,7 +2,7 @@
 title: Winning Strategy for Selecting the best Candidate (PENDING)
 date: 2024-11-14 18:44:13 +05300
 categories: [Puzzle]
-tags: [puzzle, logical, mathematics]     # TAG names should always be lowercase
+tags: [pending, puzzle, logical, mathematics]     # TAG names should always be lowercase
 description: A practical game theory problem that can help you select (probabilistically) the best candidate when interviewing. Spoiler - The first candidate is always rejected!
 math: true
 ---

@@ -2,7 +2,7 @@
 title: A First Course in Optimization (PENDING)
 date: 2023-04-07 04:59:30 +0530
 categories: [Mathematics, Optimization]
-tags: [machine_learning, artificial_intelligence, optimization, data_science, theory_course]     # TAG names should always be lowercase
+tags: [pending, machine_learning, artificial_intelligence, optimization, data_science, theory_course]     # TAG names should always be lowercase
 summary: Gradient Descent is a very powerful optimization algorithm that is used almost everywhere in machine learning, from solving logistic regression in 1950s to GPT3! This post is math intensive, we try to give a comprehensive analysis.
 description: Gradient Descent is a very powerful optimization algorithm that is used almost everywhere in machine learning, from solving logistic regression in 1950s to GPT3!
 math: true

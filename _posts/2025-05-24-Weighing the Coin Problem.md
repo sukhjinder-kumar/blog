@@ -2,7 +2,7 @@
 title: Weighing the Coin Problem (PENDING)
 date: 2025-05-24 15:25:46 +05300
 categories: [Puzzle]
-tags: [mathematics, puzzle]     # TAG names should always be lowercase
+tags: [pending, mathematics, puzzle]     # TAG names should always be lowercase
 description: This is amongst the simplest problems to say, easiest to approach and yet somehow unsolvable at times.
 math: true
 image:

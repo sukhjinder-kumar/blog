@@ -2,7 +2,7 @@
 title: A First Course in Reinforcement Learning (PENDING)
 date: 2025-05-02 15:53:04 +05300
 categories: [Computer-Science, Reinforcement-Learning]
-tags: [comptuer_science, mathematics, probability, statistics, rl, mdp, dp, theory_course]     # TAG names should always be lowercase
+tags: [pending, comptuer_science, mathematics, probability, statistics, rl, mdp, dp, theory_course]     # TAG names should always be lowercase
 description: In this introductory post we discuss the mathematical model of an MDP and some elementary ways to solve it in both offline and online setting.
 math: true
 image:
