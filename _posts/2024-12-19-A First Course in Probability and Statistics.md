@@ -1,5 +1,5 @@
 ---
-title: Probability and Statistics 101 (PENDING)
+title: A First Course in Probability and Statistics (PENDING)
 date: 2024-12-19 15:49:21 +05300
 categories: [Mathematics, Probability-Statistics]
 tags: [logical, mathematics, probability, theory_course]     # TAG names should always be lowercase

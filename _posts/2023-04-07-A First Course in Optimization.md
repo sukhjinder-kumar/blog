@@ -1,5 +1,5 @@
 ---
-title: Optimization 101 (PENDING)
+title: A First Course in Optimization (PENDING)
 date: 2023-04-07 04:59:30 +0530
 categories: [Mathematics, Optimization]
 tags: [machine_learning, artificial_intelligence, optimization, data_science, theory_course]     # TAG names should always be lowercase

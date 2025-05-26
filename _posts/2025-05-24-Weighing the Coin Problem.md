@@ -19,7 +19,7 @@ _A weighing balance_
 
 ## 2. Solution
 
-
+Before tackling the general case, let us start progressly from smaller $$N$$.
 
 ## Notes
 
