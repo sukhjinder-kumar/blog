@@ -16,6 +16,8 @@ You have got 100 prisoners who are allowed to strategies beforehand. One by one 
 
 ## 2. Solution
 
+Before I dwell into the answer, it is morally unfair for me to take the high ground. I heard the problem in a bit more forgiving terms. The same setup but basically with a hint  
+
 ## References
 
 [^1]: [Veritasium: The Riddle That Seems Impossible Even If You Know The Answer](https://www.youtube.com/watch?v=iSNsgj1OCLA)
